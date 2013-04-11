@@ -21,8 +21,8 @@ Once this project is downloaded in your GOPATH, install it with
 
 	go install weblowercaser
 	
-User it
--------
+Use it
+------
 
 ... at your own risks. It seems to work. And it's fast. But seriously I had tested it only for my sites, it might need some complements for your own. It doesn't handle PHP files and generally can't change incomplete HTML files. Links you build using JavaScript won't be fixed either.
 
