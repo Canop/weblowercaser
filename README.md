@@ -11,16 +11,12 @@ Because you inherited a huge website made on Windows with incoherent case.
 Compile it
 ----------
 
-This program parses and writes HTML files using the `go.net/html` package.
+	go build
 
-You import it using
+If it fails, you may need to run first
 
-    go get code.google.com/p/go.net/html
-    
-Once this project is downloaded in your GOPATH, install it with
+	go get golang.org/x/net/html
 
-	go install weblowercaser
-	
 Use it
 ------
 
@@ -28,6 +24,6 @@ Use it
 
 This makes a fixed copy in destpath of the source site :
 
-	weblowercaser -from sourcepath -to destpath
+	./weblowercaser -from sourcepath -to destpath
 
 
